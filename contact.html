@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+        <title>Contact — Nexora</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="dist/output.css">
+        <link rel="stylesheet" href="src/style.css">
+    </head>
+    <body>
+        <div id="nav-root"></div>
+        <main>
+            <section class="hero">
+                <div class="wrap">
+                    <h1>Let's build something <span class="grad">great together.</span></h1>
+                    <p class="lead">Have an idea, question or business challenge? Tell us about it and we'll reply within one business day.</p>
+                </div>
+            </section>
+            <section class="wrap sec grid lg:grid-cols-5 gap-8">
+                <div class="lg:col-span-2 grid gap-5 content-start">
+                    <article class="card rv">
+                        <div class="ico">✉</div>
+                        <h3>Email</h3>
+                        <p>develop@nexora.com</p>
+                    </article>
+                    <article class="card rv">
+                        <div class="ico">☎</div>
+                        <h3>Phone</h3>
+                        <p>+91 1234567089</p>
+                    </article>
+                    <article class="card rv">
+                        <div class="ico">⌖</div>
+                        <h3>Location</h3>
+                        <p>Jabalpur, Madhya Pradesh, India</p>
+                    </article>
+                    <article class="card rv">
+                        <div class="ico">⏱</div>
+                        <h3>Working hours</h3>
+                        <p>Mon–Fri, 9:00 AM – 6:00 PM IST</p>
+                    </article>
+                </div>
+                <div class="card lg:col-span-3">
+                    <h2 style="font-size:1.5rem;margin-bottom:1rem">Send us a message</h2>
+                    <form data-form novalidate>
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            <label>Full name<input required name="name" autocomplete="name">
+                                <span class="err"></span>
+                            </label>
+                            <label>Email<input required type="email" name="email" autocomplete="email">
+                                <span class="err"></span>
+                            </label>
+                        </div>
+                        <label>Subject<input required name="subject">
+                            <span class="err"></span>
+                        </label>
+                        <label>Message<textarea required name="message" rows="5"></textarea>
+                            <span class="err"></span>
+                        </label>
+                        <button class="btn btn-p" type="submit">Send message</button>
+                    </form>
+                    <p class="ok" role="status">Thanks! Your message is ready to send. Connect this form to your backend to deliver it.</p>
+                </div>
+            </section>
+        </main>
+        <div id="footer-root">
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

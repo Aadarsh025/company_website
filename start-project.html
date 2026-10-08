@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+        <title>Start a Project — Nexora</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="dist/output.css">
+        <link rel="stylesheet" href="src/style.css">
+    </head>
+    <body>
+        <div id="nav-root"></div>
+        <main>
+            <section class="hero">
+                <div class="wrap">
+                    <h1>Start your <span class="grad">project.</span></h1>
+                    <p class="lead">Share a few details and we'll come back with a plan, timeline and estimate.</p>
+                </div>
+            </section>
+            <section class="wrap sec" style="max-width:800px">
+                <div class="card">
+                    <form data-form novalidate>
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            <label>Full name<input required name="name">
+                                <span class="err"></span>
+                            </label>
+                            <label>Email<input required type="email" name="email">
+                                <span class="err"></span>
+                            </label>
+                        </div>
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            <label>Company<input name="company"></label>
+                            <label>Service needed
+                                <select required name="service">
+                                    <option value="">Select a service</option>
+                                    <option>Web Development</option>
+                                    <option>App Development</option>
+                                    <option>AI &amp; Automation</option>
+                                    <option>UI/UX Design</option>
+                                    <option>Cloud Solutions</option>
+                                    <option>Support &amp; Maintenance</option>
+                                </select>
+                                <span class="err"></span>
+                            </label>
+                        </div>
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            <label>Budget
+                                <select name="budget">
+                                <option>Under ₹50,000</option>
+                                <option>₹50,000 – ₹2,00,000</option>
+                                <option>₹2,00,000 – ₹5,00,000</option>
+                                <option>₹5,00,000+</option>
+                                </select>
+                            </label>
+                            <label>Timeline
+                                <select name="timeline">
+                                    <option>As soon as possible</option>
+                                    <option>1–2 months</option>
+                                    <option>3–6 months</option>
+                                    <option>Flexible</option>
+                                </select>
+                            </label>
+                        </div>
+                        <label>Tell us about your project
+                            <textarea required name="details" rows="6" placeholder="What are you building and who is it for?"></textarea>
+                            <span class="err"></span>
+                        </label>
+                        <button class="btn btn-p" type="submit">Submit project brief</button>
+                    </form><p class="ok" role="status" style="margin-top:1rem">Thanks! Your brief is ready to send. Connect this form to your backend to deliver it.</p>
+                </div>
+            </section>
+        </main>
+        <div id="footer-root"></div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
+    
