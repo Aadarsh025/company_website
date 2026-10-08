@@ -78,4 +78,29 @@ company-website/
 
 ---
 
+---
+
+## Screenshots
+
+*Desktop-view
+
+ <img src="assets/contact.png" alt=" Screenshot" width="800"/>
+
+ <img src="assets/index.png" alt=" Screenshot" width="800"/>
+
+ <img src="assets/project-making.png" alt=" Screenshot" width="800"/>
+
+ <img src="assets/service.png" alt=" Screenshot" width="800"/>
+
+ <img src="assets/about.png" alt=" Screenshot" width="800"/>
+
+*Mobile-view
+
+ <img src="assets/home-m.png" alt=" Screenshot" width="800"/>
+
+ <img src="assets/start-p-m.png" alt=" Screenshot" width="800"/>
+
+ <img src="assets/about-m.png" alt=" Screenshot" width="800"/>
+
+---
 Made with ❤️ for **Nexora**. Leave a star if you like it.
