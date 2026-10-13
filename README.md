@@ -102,5 +102,11 @@ company-website/
 
  <img src="assets/about-m.png" alt=" Screenshot" width="800"/>
 
+
+## 👨‍💻 Author
+
+**Aadarsh Tripathi**
+
+- Project: [NEXORA](https://companywebin.vercel.app)
 ---
 Made with ❤️ for **Nexora**. Leave a star if you like it.
